@@ -40,6 +40,9 @@ from low to high levels in the dependency graph)
 
 * [`linera-storage`](https://linera-io.github.io/linera-protocol/linera_storage/index.html)
   Defines the storage abstractions for the protocol on top of `linera-chain`.
+  chain &#x2194; chain interactions), and track the corresponding data schemas.
+
+* [`linera-client`](https://linera-io.github.io/linera-protocol/linera_client/index.html)
 
 * [`linera-core`](https://linera-io.github.io/linera-protocol/linera_core/index.html) The
   core Linera protocol, including client and server logic, node synchronization, etc.
@@ -129,3 +132,5 @@ linera query-balance "$CHAIN2:$ACCOUNT2"
 
 More complex examples may be found in our [developer manual](https://linera.dev) as well
 as the [example applications](./examples) in this repository.
+
+Have a nice day :)
